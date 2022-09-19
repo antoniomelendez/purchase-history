@@ -9,7 +9,7 @@ const PurchaseHistory = () => {
     .then(response => response.json())
     .then(data => setPurchaseHistory(data))
     .catch(error => console.error(error))
-  })
+  }) 
 
   return (
     <main>
